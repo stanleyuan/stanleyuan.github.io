@@ -1,0 +1,161 @@
+html {
+    background-color: #666666;
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+.container {
+    width: 1188px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 48px;
+    background-color: #666666;
+    width: 1188px;
+    height: 84px;
+}
+
+header img {
+    width: 168px;
+    height: 45px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.site-nav {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 45px;
+    width: 1020px;
+    padding: 0px;
+    float: right;
+    vertical-align: top;
+}
+
+.site-nav ul {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.site-nav li {
+    list-style: none;
+    margin-left: 36px;
+    margin-top: 10px;
+    width: 160px;
+    height: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.site-nav a {
+    text-decoration: none;
+}
+
+.site-nav li input {
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+}
+
+.img-block {
+    width: 1188px;
+}
+
+.img-block img {
+    height: 549px;
+    width: 1188px;
+}
+
+.img-block p {
+    height: 166px;
+    width: 1188px;
+    text-align: center;
+}
+
+.booklist {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    height: 576px;
+}
+
+.book {
+    width: 270px;
+    height: 479px;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-between;
+    flex: 4;
+}
+
+.book img {
+    width: 270px;
+    height: 337px;
+}
+
+.book p {
+    width: 270px;
+    height: 211px;
+    margin-right: 0px;
+    font-size: 15px;
+}
+
+.idea {
+    width: 1188px;
+    height: 403px;
+}
+
+.idea img {
+    width: 576px;
+    height: 403px;
+}
+
+.idea p {
+    width: 576px;
+}
+
+.idea .right {
+    float: right;
+}
+
+.idea .left {
+    float: left;
+}
+
+.footer .footer-img ul li {
+    width: 48px;
+    height: 48px;
+}
+
+.footer .footer-img ul li img {
+    width: 48px;
+    height: 48px;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
